@@ -3,7 +3,7 @@ const app  = express();
 
 const port = process.env.PORT || 8080;
 
-app.use(express.static(path.resolve(__dirname, '../client/build')));
+app.use(express.static('public'))
 
 app.get(/^(?!\/api(\/|$))/, (req, res) => {
     const index = path.resolve(__dirname, '../client/build', 'index.html');
