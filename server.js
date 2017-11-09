@@ -5,9 +5,10 @@ const port = process.env.PORT || 8080;
 
 app.use(express.static('public'))
 
-app.get('/', (req, res) => {
-    res.sendFile(__dirname, '../client/build', "/public/index.html")
-})
+app.get(/^(?!\/api(\/|$))/, (req, res) => {
+    const index = path.resolve(__dirname, '../client/build', 'index.html');
+    res.sendFile(index);
+  });
 
 app.listen(port,  () => {
     console.log("Server's starting!!");
