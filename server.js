@@ -16,7 +16,7 @@ const port = process.env.PORT || 8080;
   app.use(express.static('public'))
   
   app.get('*', (req, res) => {
-      const index = path.resolve(__dirname, 'build', 'index.html');
+      const index = path.resolve(__dirname, './build', 'index.html');
       res.sendFile(index);
   });
 
