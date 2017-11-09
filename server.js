@@ -4,9 +4,9 @@ const app  = express();
 const port = process.env.PORT || 8080;
 
 app.use(express.static('public'))
-console.log('shit')
+console.log('shit', __dirname)
 app.get(/^(?!\/api(\/|$))/, (req, res) => {
-    console.log('this is dirname', __dirname)
+    // console.log('this is dirname', __dirname)
     const index = path.resolve(__dirname, './build', 'index.html');
     
     res.sendFile(index);
