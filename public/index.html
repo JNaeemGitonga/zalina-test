@@ -50,28 +50,28 @@
         </a>
     </body>
     <script>
-    window.addEventListener('scroll', function(e) {
+        window.addEventListener('scroll', function(e) {
 
-        if (window.scrollY > 200) {
-            document.getElementById('bktt').style.display = "block"
-        }
-      
-    })
+            if (window.scrollY > 200) {
+                document.getElementById('bktt').style.display = "block"
+            }
+        
+        })
 
-    window.addEventListener('scroll', function(e) {
+        window.addEventListener('scroll', function(e) {
 
-        if (window.scrollY === 0) {
-            document.getElementById('bktt').style.display = "none"
-        }
-      
-    })
-    document.getElementById('bktt').addEventListener("mouseenter", function() {
-        document.getElementById('bktt-arrow').style.background = 'black'
-    })
+            if (window.scrollY === 0) {
+                document.getElementById('bktt').style.display = "none"
+            }
+        
+        })
+        document.getElementById('bktt').addEventListener("mouseenter", function() {
+            document.getElementById('bktt-arrow').style.background = 'black'
+        })
 
-    document.getElementById('bktt').addEventListener("mouseleave", function() {
-        document.getElementById('bktt-arrow').style.background = 'white'
-    })
+        document.getElementById('bktt').addEventListener("mouseleave", function() {
+            document.getElementById('bktt-arrow').style.background = 'white'
+        })
     </script>
 
 </html>

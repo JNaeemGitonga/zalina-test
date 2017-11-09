@@ -95,3 +95,92 @@ footer {
     }
 }
 
+/* BEGIN IG OVERLAY STYLE*/
+
+
+
+
+
+
+/*END IG OVERLAY STYLES*/
+
+
+/*BACK TO TOP BUTTON */
+
+.back-to-top__toggle {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: black;
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    transition: 0.4s box-shadow;
+    display: none;
+    z-index: 99;
+}
+
+.back-to-top__arrow {
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.back-to-top__arrow:before {
+    transform: rotate(-45deg);
+    left: -17px;
+}
+
+.back-to-top__arrow:after, .back-to-top__arrow:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background: inherit;
+    top: -2px;
+}
+
+
+.back-to-top__arrow:after, .back-to-top__arrow:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background: inherit;
+    top: -2px;
+
+}
+
+.back-to-top__arrow:after {
+    transform: rotate(45deg);
+    left: -3px;
+}
+.back-to-top__arrow:before {
+    transform: rotate(-45deg);
+    left: -17px;
+}
+
+
+#changes img.mySlides {
+    animation-name: fadeInAndOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 16s;
+}
+
+.back-to-top__toggle:hover {
+   
+    background: white;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    transition: 0.4s box-shadow;
+    z-index: 99;
+}
+
+
+
+/*END BACK TO TOP BUTTON*/
