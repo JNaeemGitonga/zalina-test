@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://localhost:3000/services -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GZ Natural Hair</title> 
+        <link href="./GZ Natural Hair_files/css" rel="stylesheet">
+        <link rel="stylesheet" href="./GZ Natural Hair_files/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="./GZ Natural Hair_files/main.css">
+
+        <link rel="stylesheet" type="text/css" href="./GZ Natural Hair_files/float-grid.css">
+    <style type="text/css">.w3-display-right {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    -webkit-transform: translate(0%,-50%);
+            transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+}
+
+
+
+.additional-service {
+    text-align: center;
+}
+
+.display-container {
+    position:relative;
+}
+
+.w3-black, .w3-hover-black:hover {
+    background:black;
+}
+
+.w3-display-left {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    -webkit-transform: translate(0%,-50%);
+        -ms-transform: translate(0%,-50%);
+            transform: translate(0%,-50%);
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 35px;
+}
+
+/*LANDING PAGE IMAGES*/
+.welcome-message {
+    padding:0 25px 25px 25px;
+    margin:auto;
+    max-width:500px
+}
+
+
+@media screen and (min-width:500px) {
+    /* .welcome-message {
+        width:50%;
+    } */
+}
+.parent {
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+        flex-wrap:wrap;
+    height: auto;
+    margin:50px 15px 150px 15px;
+}
+
+.landing-img {
+    height: 100%;
+    width:auto
+}
+ 
+.children {
+    height: auto;
+    margin: auto;
+}
+/*LANDING PAGE IMAGES*/
+
+
+/*PIC SLIDE SHOW AND LANDING PG IMG*/
+
+.picTransitions {
+    width:100%;
+    /* height:100vh; */
+    text-align:center;
+    margin-top:50px;
+}
+ 
+img.mySlides{
+    margin:auto;
+    height:100%;
+    /* try changing that to height and width 100% */
+    
+}
+
+
+
+
+@-webkit-keyframes changesFadeInOut {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+
+
+
+@keyframes changesFadeInOut {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  #changes {
+    margin:auto;
+    position:relative;
+    max-width:300px;
+    height:50%;
+}
+
+#changes img.mySlides {
+    position:absolute;
+    left:5%;
+    max-width:250px;
+    height:auto;
+
+}
+
+#changes img:nth-of-type(1) {
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s;
+}
+
+#changes img:nth-of-type(2) {
+    -webkit-animation-delay: 8s;
+            animation-delay: 8s
+}
+
+#changes img:nth-of-type(3) {
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
+}
+
+  #changes img:nth-of-type(4) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+}
+
+#changes img.mySlides {
+    -webkit-animation-name: changesFadeInOut;
+            animation-name: changesFadeInOut;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 16s;
+            animation-duration: 16s;
+}
+
+@media screen and (max-width:540px) {
+    #changes img.mySlides{
+        left:8%
+    }
+}
+
+@media screen and (max-width:359px) {
+    #changes img.mySlides{
+        left:12%
+    }
+}
+/*END PIC SLIDE SHOW*/
+
+
+
+
+/*BEGINN STYLIST PAGE STYLES*/
+
+#stylist{
+    
+    width:70%;
+    /* text-align:center; */
+    margin:auto;
+    margin-top:50px;
+}
+
+.meet-pic {
+    margin:auto;
+    position: relative;
+    /* background-image:url('./pix/meetGabrielle.jpg'); */
+    /* background-size:cover; */
+    width:300px;
+    height:auto;
+}
+
+.bio {
+    width:60%;
+    height:auto
+}
+.headshot {
+    height:100%;
+    width:100%;
+}
+
+.bio-box {
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+        flex-wrap:wrap;
+    margin-bottom:50px;
+}
+
+@media screen and (max-width: 680px) {
+    .bio {
+        width:80%;
+        text-align:center;
+        margin:auto
+    }
+    
+    
+}
+/*END STYLIST PAGE STYLES*/
+
+
+
+
+/*BEGIN HEADER STYLES*/
+#logo {
+    max-width:40vw;
+    margin-bottom:45px;
+}
+
+.hamburger {
+    position:relative;
+    top:-5px;
+    font-size:30px;
+    display:block;
+    margin-top:0;
+    margin-bottom:0;
+    padding-top: 15px;
+
+}
+
+#header {
+    /* position:relative; */
+    background:#E84962;
+    color:white;
+    /* height:120px; */
+    text-align:center;
+    /* top: 0; */
+    /* left: 0; */
+    width: 50vw;
+    height:30%;
+    z-index: 100;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    border-radius:50%;
+    margin:auto
+}
+
+.ham-div {
+    padding:10px;
+} 
+
+.heading {
+    position:relative;
+    bottom:75px;
+    /* padding:30px; */
+    margin:0;
+    font-size:5vw;
+    margin-top:20px;
+    
+
+}
+
+a.head-link {
+    text-decoration:none ;
+    color:white  ;
+}
+
+@media screen and (max-width: 420px) {
+    .heading {
+        font-size:6vw;
+    }
+
+    .header-info {
+        font-size:4vw;
+    }
+}
+
+#box-under-header {
+    background: rgb(255, 103, 170);
+    height:auto;
+    width:100%;
+    padding:10px;
+    color:white;
+
+}
+
+h3.header-info {
+    margin: 0 5px 0 5px;
+    text-align:center;
+}
+
+/*END HEADER STYLES*/
+
+
+#map {
+    text-align:center;
+}
+
+iframe {
+    width:50%;
+    height:40vh;
+}
+
+.location-info {
+    display:inline-block;
+    margin:40px;
+}
+
+.parking {
+    width:50%
+}
+
+.slides {
+    width:100%;
+   text-align:center;
+   max-width:500px;
+   margin:auto;
+   position:relative /* just added*/
+}
+/*STYLE PAGE*/
+
+.content {
+    max-width:450px;
+    margin:auto;
+    padding:25px
+}
+#dooz-slideshow {
+    
+    margin:auto;
+}
+ul {
+    margin-bottom:40px;
+}
+
+/*END STYLE PAGE STYLE*/
+.doo-img {
+    height:auto;
+}
+
+
+/*BEGIN OVERLAY STYLE*/
+.overlay {
+    position: absolute;
+    top:-5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    height: 98%;
+    width:80%;
+    
+    opacity:0;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    background-color:rgba(0,0,0,0.9);
+    margin:auto
+ }
+
+.overlay-content {
+    width:80%;
+}
+
+.slides:hover .overlay{
+    cursor:pointer;
+    /* height:100% */
+    opacity:1;
+
+}
+
+.text {
+    color: #f1f1f1;
+    font-size: 5vw;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    margin-top:-5px;
+  }
+.style-name {
+    margin:0;
+    margin-bottom:-15px;
+}
+
+@media screen and (min-width: 500px) {
+    .text {
+        font-size:20px;
+    }
+}
+/*END OF OVERLAY*/
+
+
+/*MAP RULES*/
+@media screen and (max-width:580px) {
+    div.hours {
+        margin-top:0;
+    }
+}
+
+/*MAP RULES END*/
+
+
+@media screen and (max-width: 380px) {
+
+    #header {
+        height:auto;
+    }
+
+    .heading {
+        padding:40px;
+    }
+
+    /* div#box-under-header {
+        display:none;
+        transition: 0.5s;
+    } */
+    
+    #map {
+        /* margin-top:400px; */
+        /* margin-bottom:300px; */
+    }
+
+    iframe {
+        width:70%;
+        height:40vh;
+    }
+    .parking {
+        width:70%
+    }
+    
+}
+
+/* BOUNCING BUTTONS */
+.bounce {
+	-webkit-animation-name: bounce;
+	animation-name: bounce;
+}
+.animated{-webkit-animation-fill-mode:both;
+-moz-animation-fill-mode:both;
+-ms-animation-fill-mode:both;
+-o-animation-fill-mode:both;
+
+            animation-iteration-count: infinite;
+       -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+
+animation-fill-mode:both;
+-webkit-animation-duration:2s;
+animation-duration:2s;
+}
+
+
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateX(0);}	40% {-webkit-transform: translateX(15px);}
+	60% {-webkit-transform: translateX(5px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateX(0);transform: translateX(0);}
+	40% {-webkit-transform: translateX(15px);transform: translateX(15px);}
+	60% {-webkit-transform: translateX(5px);transform: translateX(5px);}
+}
+
+
+.bounce-left {
+	-webkit-animation-name: bounce-left;
+	animation-name: bounce-left;
+}
+.animated-left{-webkit-animation-fill-mode:both;
+-moz-animation-fill-mode:both;
+-ms-animation-fill-mode:both;
+-o-animation-fill-mode:both;
+
+            animation-iteration-count: infinite;
+       -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+
+animation-fill-mode:both;
+-webkit-animation-duration:2s;
+animation-duration:2s;
+}
+
+
+@-webkit-keyframes bounce-left {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateX(0);}	40% {-webkit-transform: translateX(-15px);}
+	60% {-webkit-transform: translateX(-5px);}
+}
+@keyframes bounce-left {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateX(0);transform: translateX(0);}
+	40% {-webkit-transform: translateX(-15px);transform: translateX(-15px);}
+	60% {-webkit-transform: translateX(-5px);transform: translateX(-5px);}
+}
+/* END BOUNCING BUTTONS */
+
+
+/*BEGIN LARGE MODAL STYLE*/
+
+
+ 
+.modal-content2 {
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+        flex-wrap:wrap;    /* margin-top:150px */
+    margin:auto;
+    background:#f1f1f1;
+    max-width:65%;
+    vertical-align:center;
+}
+.modal-inside-1 {
+    max-width:50%;
+    height:100%;
+    min-width:50%;
+}
+
+@media screen and (max-width:676px) {
+    .modal-inside-1 {
+        max-width:100%;
+    }
+}
+
+.modal-inside-2{
+    margin:auto;
+    width:200px;
+    /* margin-top: 10px; */
+    
+   
+}
+.caption-box {
+    text-align:left;
+    height:200px;
+    overflow:auto;
+}
+
+.name-box {
+    position:relative;
+    display:inline;
+}
+.name-box-name {
+    display:inline;
+}
+p.name {
+    text-align:left
+}
+
+h4.close {
+    margin-top:0;
+}
+.ig-profile-pic{
+    position:relative;
+    display:block;
+    border-radius:50%;
+    width: 45px;
+    height: 45px;
+    float:left;
+    padding: 5px;
+    top:8px;
+}
+.close:hover{
+    cursor:pointer
+}
+
+/* .anchor {
+    text-decoration:none
+} */
+
+.style-info {
+    color: #f1f1f1;
+    
+}
+
+
+
+.modal-img {
+    max-width:550px;
+    width:80vw;
+    height:auto
+}
+
+.ig-modal-img {
+    display: block;
+    width:100%;
+    height:100%
+}
+
+
+/*END LARGE MODAL STYLE*/
+
+/*BEGIN ABOUT US*/
+.about-us {
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:-250px;
+}
+
+.about-us-info {
+    position:relative;
+    margin-bottom:50px;
+    padding:0 40px 40px 40px;
+    margin:auto;
+    max-width: 800px;
+    margin-bottom: -230px;
+    top:-250px
+}
+
+
+/*END ABOUT US*/
+
+/*TRANSITIONS COMPONENT*/
+#transitions {
+    max-width:900px;
+    padding:40px;
+    margin:auto;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+        flex-wrap:wrap;
+}
+
+.transition-sec {
+    max-width:300px;
+    height:auto;
+    margin:auto;
+}
+
+.transi-pix {
+    height: 100%;
+    width: 100%;
+}
+
+.transition-sec .pic {
+    max-width: 250px;
+}
+/*END TRANSITIONS COMPONENT STYLE*/
+
+
+/* BEGIN IGFEED STYLES*/
+.ig-content {
+    display:inline-block;
+    position:relative;
+    /* max-width:200px; */
+    margin:2px;
+    width:250px;
+    height:250px;
+    min-width:250px;
+    overflow:hidden;
+}
+
+.ig-parent {
+    padding:10px;
+}
+
+#ig-feed {
+    
+    position:relative;
+    text-align:center;
+    margin:auto;
+    width:auto;
+    max-width:1200px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.ig-pic {
+    position:relative;
+    width: 100%;
+}
+ .cneter-div {
+    max-width:900px;
+     display:inline ;
+     margin:auto;
+     
+ }
+.ig-overlay {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    height: 100%;
+    width:100%;
+    
+    opacity:0;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    background-color:rgba(0,0,0,0.9);
+    margin:auto
+ }
+
+.ig-overlay-content {
+    width:80%;
+}
+
+.ig-content:hover .ig-overlay{
+    cursor:pointer;
+    /* height:100% */
+    opacity:1;
+
+}
+
+.ig-text {
+    color: #f1f1f1;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 100%;
+    padding:10px;
+    font-size:95%S;
+  }
+
+.ig-pic-box {
+    margin:10px;
+}
+/* @media screen and (min-width: 500px) {
+    .ig-text {
+        font-size:20px;
+    }
+} */
+
+/*END IGFEED STYLES*/
+
+
+/*BEGIN ED STYLES*/
+
+#education {
+    text-align:center;
+    padding:0 40px 40px 40px;
+}
+
+.edu-box {
+    max-width:1200px;
+    margin:auto;
+}
+
+.edu-text {
+    text-align:left;
+    max-width:500px;
+    padding:30px;
+}
+
+.main-ed-img, .ed-img {
+    height: 100%;
+    width: 100%;
+}
+/*END ED STYLES*/
+
+
+
+/*IG MODAL*/
+
+
+/*END IG MODAL*/
+
+</style><style type="text/css">.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.closebtn {
+    color: #818181;
+    margin: 15px 15px 0 0;
+}
+
+.closebtn:hover {
+    color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  </style><style type="text/css">.link:hover {
+    cursor:hand,
+}
+
+
+
+#ig-feed {
+}</style></head>
+    <body id="body">
+       
+        <div id="main">
+            <div id="root"><div class="App"><div id="header"><p class="hamburger link">☰</p><a class="head-link" href="http://localhost:3000/"><img id="logo" src="./GZ Natural Hair_files/logo.a7eb366e.png" alt="GZ Logo"></a></div><div id="box-under-header"><h3 class="header-info">| <em>Organic Texture Tresses</em> |<em>Natural Hair Care</em> | <em>Braid Professional Expert</em> | <em>Jacksonville, FL</em> |</h3></div><div id="mySidenav" class="sidenav"><span class="closebtn link">×</span><a href="http://localhost:3000/">Home</a><a href="http://localhost:3000/aboutus">About Us</a><a href="http://localhost:3000/stylist">Stylist</a><a href="http://localhost:3000/transitions&amp;styling">Transitions and Styling</a><a href="http://localhost:3000/gZalinaIG">G. Zalina<i class="fa fa-instagram  " aria-hidden="true"></i></a><a href="http://localhost:3000/services"><em>Services</em></a><a href="http://localhost:3000/education">Education</a><a href="http://localhost:3000/location">Location</a></div><div id="dooz-slideshow"><div class="content  display-container"><div class="slides"><img class="doo-img" alt="Braid w/ Twist" src="./GZ Natural Hair_files/braidandtwist.c825a06d.jpg" style="width: 80%; height: auto; border: 5px solid black;"><div class="overlay"><div class="overlay-content"><div class="text"> <h3 class="style-name">Braid w/ Twist</h3> <br>2.5 hours | Last up to 3 Weeks | $100<br></div></div></div></div><button class="w3-button w3-black w3-display-left animated-left bounce-left">❮</button><button class="w3-button w3-black w3-display-right animated bounce">❯</button></div><div class="content"><h3 class="additional-service">Consultations &amp; Bookings</h3><h5 class="additional-service"> All   services   include   an Aveda   Wellness   with   yummy shampoo   cleansing&nbsp; and   conditioning   treatments.&nbsp;</h5><ul><li> Our   Extension   Styles   do   require In-Salon   or   Email   Consultations. Extension hair   is   provided   for   each   style. A hair   fee   will   be added   to   your   total service   based   on   your   particular   style   of choice.</li><li>Example:   Mid   back   Two   Strand   Twist   Style   $225 (Hair   Fee   $25)= Total   $250</li><li>Deposits   are   also   collected-   up   to   50%   of   your Service   due   at   booking.&nbsp; Please   see   a   member   of The   Willow   Team   for   more   info.&nbsp;</li></ul><h3 class="additional-service">Additional Services</h3><ul><li>Braid/Extension Removal | $60/hr</li><li>Botanical Treatment | Improve damaged and dry hair up to 86% | +$15</li><li>Glossing Treatment | Add amazing shine to dull looking hair | +$15</li><li>Eyebrow Shaping | $15</li><li>At-Home Care Lesson | Styling techniques at home mastering products that bring you amazing results every time | $60/hr</li><li>Mommy Does my Hair Lesson | How to easily manage, detangle and style your child's | $60/hr</li></ul></div><div class="modal" style="display: none; position: fixed; z-index: 1; padding-top: 100px; left: 0px; top: 0px; width: 100vw; height: 100vh; overflow: auto; background-color: rgb(0, 0, 0); text-align: center;"><div class="modal-content"><h1 class="modal-content" style="margin: auto; display: block; color: rgb(241, 241, 241); text-align: center;">Braid w/ Twist</h1><img class="modal-img" alt="Braid w/ Twist" src="./GZ Natural Hair_files/braidandtwist.c825a06d.jpg"><h4 class="close" style="color: rgb(241, 241, 241); font-weight: bold; text-decoration: underline;"> x </h4><h3 class="style-info"> 2.5 hours | Last up to 3 Weeks | $100 </h3><h3 class="style-info">  </h3></div></div></div><a to="#" class="back-to-top__toggle" style="display: block;"><span class="back-to-top__arrow"></span></a></div></div>
+            <div id="footer">
+                <footer class="footer ">
+                    <div class="child  company-info">
+                        <h3>Contact</h3>
+                        <p>
+                            Willow Organic Salon &amp; Day Spa<br> 
+                            10950 San Jose Blvd, #40<br> 
+                            Jacksonville, FL 32223<br>
+                            904-859-9844<br>
+                            <a class="icon-link" href="mailto:GabrielleZalina@gmail.com">Email</a></p>
+                    </div> 
+                    <div class="child social-media">
+                        <h3 class="child-header">Social Media</h3>
+                        <div class="icon-container">
+                            <a class="icon-link" href="https://www.instagram.com/gabriellezalina/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a><br>
+                            <span>Texture Masters</span>
+                            <a class="icon-link" href="https://www.instagram.com/texturemasters/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                            <a class="icon-link" href="https://www.facebook.com/TextureMasters"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+                        </div>
+                        
+                       
+                    </div>
+                    <div class="child">
+                        <h3>Resources</h3>
+                    </div>
+                </footer>
+                
+            </div>
+            <div class="developer">
+                    <a class="icon-link" href="mailto:wat0ik0zie@gmail.com"><p class="dev-credit">Designed by GIT Solutions, Inc.</p></a>
+                <p class="owner">Gabrielle Zalina <i class="fa fa-copyright" aria-hidden="true"></i> 2017</p>
+                
+            </div> 
+        </div>
+        
+    <script type="text/javascript" src="./GZ Natural Hair_files/bundle.js.download"></script>
+   
+
+
+
+<!--  --></body></html>
