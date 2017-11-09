@@ -6,7 +6,7 @@ const port = process.env.PORT || 8080;
 app.use(express.static('public'))
 console.log('shit')
 app.get(/^(?!\/api(\/|$))/, (req, res) => {
-    console.log(__dirname)
+    console.log('this is dirname', __dirname)
     const index = path.resolve(__dirname, './build', 'index.html');
     
     res.sendFile(index);
