@@ -328,24 +328,26 @@ iframe {
     margin:auto;
     padding:25px
 }
+
 .display-container {
     position:relative;
     margin-top:50px;
 }
 
-
 #dooz-slideshow {
     
     margin:auto;
 }
+
 ul {
     margin-bottom:40px;
 }
 
-/*END STYLE PAGE STYLE*/
 .doo-img {
     height:auto;
 }
+/*END STYLE PAGE STYLE*/
+
 
 
 /*BEGIN OVERLAY STYLE*/
