@@ -1,7 +1,7 @@
 const express = require("express");
 const app  = express();
 
-const index = require("build/index")
+const index = require("./build/index")
 
 const port = process.env.PORT || 8080;
 
@@ -15,9 +15,13 @@ const port = process.env.PORT || 8080;
 //   });
 
  
-  app.use(express.static('build/index'))
+  app.use(express.static('public'))
   
- 
+  app.get('*', (req, res) => {
+      console.log('this id __dirname', __dirname)
+      const index = path.resolve(  '../index.html');
+      res.sendFile(index);
+  });
 
 app.listen(port,  () => {
     console.log("Server's starting!!");
