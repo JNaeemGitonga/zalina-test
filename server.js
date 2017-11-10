@@ -17,11 +17,7 @@ const port = process.env.PORT || 8080;
  
   app.use(express.static('public'))
   
-  app.get('*', (req, res) => {
-      console.log('this id __dirname', './build')
-      const index = path.resolve( './build', 'index.html');
-      res.sendFile(index);
-  });
+ 
 
 app.listen(port,  () => {
     console.log("Server's starting!!");
