@@ -15,7 +15,7 @@ const port = process.env.PORT || 8080;
 //   });
 
  
-  app.use(express.static('public'))
+  app.use(express.static('build'))
   
   app.get('*', (req, res) => {
       console.log('this id __dirname', __dirname)
