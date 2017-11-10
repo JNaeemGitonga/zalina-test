@@ -19,7 +19,7 @@ const port = process.env.PORT || 8080;
   
   app.get('*', (req, res) => {
       console.log('this id __dirname', __dirname)
-      const index = path.resolve(  '../index.html');
+      const index = path.resolve(  './build/index.html');
       res.sendFile(index);
   });
 
