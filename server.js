@@ -1,7 +1,7 @@
 const express = require("express");
 const app  = express();
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3253;
 
 // app.use(express.static('public'))
 // console.log('shit', __dirname)
@@ -13,11 +13,11 @@ const port = process.env.PORT || 8080;
 //   });
 
  
-  app.use(express.static('public'))
+  app.use(express.static('build'))
   
   app.get('*', (req, res) => {
       console.log('this id __dirname', __dirname)
-      const index = path.resolve(__dirname, 'build', './index.html');
+      const index = path.resolve(__dirname, './build', './index.html');
       res.sendFile(index);
   });
 
