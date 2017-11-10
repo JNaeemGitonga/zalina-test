@@ -1,6 +1,5 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {Link} from 'react-router-dom';
 import {getIGPost} from '../actions';
 
 import './gzalinaig.css';
@@ -58,7 +57,6 @@ export class GZalinaIG extends React.Component {
             
         }
         let igObject;
-        let themodal;
         let y = this.state
         if(this.props.feed) {
             igObject = this.props.feed.map((obj, i) => {

@@ -21,7 +21,7 @@ export class Main extends React.Component {
                         with your hair, you are in the right place.</span>
                     </div>
                     
-                    <div className='parent '>
+                    <div className='parent one'>
                         
                         <div className='children'>
                             <Link to='/services'><img className='landing-img' alt='other img'src={braids} /></Link>

@@ -18,7 +18,7 @@ export default class Transitions extends React.Component {
  
                     <p>Transitioning to natural hair is one of the most
                         liberating life decisions women today have made. 
-                        No more abusing yourself on some many levels. When 
+                        No more abusing yourself on so many levels. When 
                         we embrace our hair, we embrace ourselves for who we are.
                         Natural hair is more versatile than chemically processed 
                         hair due to the fact that is has not been weakened or 
