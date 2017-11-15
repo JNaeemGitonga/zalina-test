@@ -234,19 +234,18 @@ img.mySlides{
 }
 
 #header {
-    /* position:relative; */
     background:#16448e;
     color:white;
-    /* height:120px; */
     text-align:center;
-    /* top: 0; */
-    /* left: 0; */
     width: 50vw;
     height:30%;
     z-index: 100;
     transition: 0.5s;
     border-radius:50%;
-    margin:auto
+    margin:auto;
+    box-shadow: 0 0 20px 0 #888;
+    margin-bottom: 25px;
+    margin-top: 25px
 }
 
 .ham-div {
@@ -286,6 +285,7 @@ a.head-link {
     width:100%;
     padding:10px;
     color:white;
+    box-shadow: 0 0 20px 0 #888;
 
 }
 
