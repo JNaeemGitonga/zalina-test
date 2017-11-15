@@ -235,7 +235,7 @@ img.mySlides{
 
 #header {
     /* position:relative; */
-    background:#E84962;
+    background:#16448e;
     color:white;
     /* height:120px; */
     text-align:center;
@@ -280,7 +280,8 @@ a.head-link {
 }
 
 #box-under-header {
-    background: rgb(255, 103, 170);
+    background:     rgb(24, 202, 215); 
+    /* rgb(255, 103, 170); */
     height:auto;
     width:100%;
     padding:10px;
@@ -540,7 +541,9 @@ animation-duration:2s;
 
 /*BEGIN LARGE MODAL STYLE*/
 
-
+.style-heading {
+    margin-bottom:20px !important;
+}
  
 .modal-content2 {
     display:flex;

@@ -124,7 +124,7 @@ export class GZalinaIG extends React.Component {
                                 <span style={modalContent}>{y.caption}</span>
                             </div>
                             <i className="fa fa-heart " aria-hidden="true"></i> 
-                            <span style={modalContent}>{y.likes} Likes<a href={y.link} target='_blank' ><i className="fa fa-instagram fa-2x" aria-hidden="true"></i></a></span>
+                            <span style={modalContent}>{y.likes} Likes<a href={y.link} target='_blank' ><i className="fa fa-instagram fa-2x" ></i></a></span>
                         </div>
                     </div>
                 </div>

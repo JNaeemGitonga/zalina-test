@@ -19,47 +19,47 @@ import childrenbraids from './pix/childrenbraids.jpg';
 export const styles = [
     {   style:'Ghana Braids',
     modalHeading:'Ghana Braids',
-    modalContent:'2 hours | Last up to 3 Weeks | $110',
+    modalContent:'2 hours | Last up to 3 Weeks',
     pic:ghanabraids
     },
     {   style:'Braid w/ Twist',
     modalHeading:'Braid w/ Twist',
-    modalContent:'2.5 hours | Last up to 3 Weeks | $100',
+    modalContent:'2.5 hours | Last up to 3 Weeks',
     pic:braidandtwist
     },
     {   style:'Extension Flat Twist Updo',
     modalHeading:'Extension Flat Twist Updo',
-    modalContent:'2 hours | Last up to 3 Weeks | $140',
+    modalContent:'2 hours | Last up to 3 Weeks',
     pic:extenstiontwist
     },
     {   style:'Twist-Out Style',
     modalHeading:'Twist-Out Style',
-    modalContent:'1.5 hours | Last up to 2 Weeks | $75',
+    modalContent:'1.5 hours | Last up to 2 Weeks',
     pic:twistout
     },
     {   style:'Long Single Braids',
     modalHeading:'Long Single Braids',
-    modalContent:'7 hours | Last up to 8 Weeks | $280',
+    modalContent:'7 hours | Last up to 8 Weeks',
     pic:longsinglebraids
     },
     {   style:'Blow-Out with Haircut',
     modalHeading:'Blow-Out with Haircut',
-    modalContent:'2 hours | Last up to 3 Weeks | $85',
+    modalContent:'2 hours | Last up to 3 Weeks',
     pic:blowoutcut
     },
     {   style:'Kinky Twist Extension (straight)',
     modalHeading:'Kinky Twist Extension (straight)',
-    modalContent:'5 hours | Last up to 8 Weeks | $280',
+    modalContent:'5 hours | Last up to 8 Weeks',
     pic:kinkytwistext
     },
     {   style:'Kinky Twist Extension (curly)',
     modalHeading:'Kinky Twist Extension (curly)',
-    modalContent:'5 hours | Last up to 8 Weeks | $280',
+    modalContent:'5 hours | Last up to 8 Weeks',
     pic:kinkytwistextcurly
     },
     {   style:'Loc Refreshen',
     modalHeading:'Loc Refreshen',
-    modalContent:'2.5 hours | Last up to 8 Weeks | $280',
+    modalContent:'2.5 hours | Last up to 8 Weeks',
     extra:'cut +$25 | style +$10 | color "Consult with stylist for pricing"',
     pic:locrefreshen
     },
@@ -75,28 +75,28 @@ export const styles = [
     },
     {   style:'Feed-In Extension Braids',
     modalHeading:'Feed-In Extension Braids',
-    modalContent:'3 hours | Last up to 6 Weeks | $175',
+    modalContent:'3 hours | Last up to 6 Weeks',
     pic:feedinextension
     },
     {   style:'Sew-In Extension',
     modalHeading:'Sew-In Extension',
-    modalContent:'4 hours | Last up to 8 Weeks | $200',
+    modalContent:'4 hours | Last up to 8 Weeks',
     extra:'Hair sold seperate',
     pic:sewinextension
     },
     {   style:'Senagalese Twist',
     modalHeading:'Senagalese Twist',
-    modalContent:'6 hours | Last up to 10 Weeks | $290',
+    modalContent:'6 hours | Last up to 10 Weeks',
     pic:senegalesetwist
     },
     {   style:'Braided Pompadour',
     modalHeading:'Braided Pompadour',
-    modalContent:'3 hours | Last up to 4 Weeks | $160',
+    modalContent:'3 hours | Last up to 4 Weeks',
     pic:braidedpompadour
     },
     {   style:'Children Braids',
     modalHeading:'Children Braids',
-    modalContent:'2 hours | Last up to 4 Weeks | $75',
+    modalContent:'2 hours | Last up to 4 Weeks',
     pic:childrenbraids
     },
 

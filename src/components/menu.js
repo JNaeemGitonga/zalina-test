@@ -24,15 +24,22 @@ export default class Menu extends React.Component {
             <div id='mySidenav' className='sidenav'>
                 <span onClick={() => x.closeNav()} className='closebtn link'>&times;</span>
                 <Link to="/" onClick={() => x.closeNav()}>Home</Link>
-                <Link to="/aboutus" onClick={() => x.closeNav()} >About Us</Link>
-                <Link to="/stylist" onClick={() => x.closeNav()}>Stylist</Link>
-                <Link to="/transitions&styling" onClick={() => x.closeNav()}>Transitions and Styling</Link>
-                <Link to="/gZalinaIG" onClick={() => x.closeNav()}>G. Zalina<i className="fa fa-instagram  " aria-hidden="true"></i></Link>
+                <Link to="/transitions&styling" onClick={() => x.closeNav()}>Transitional Styling Guide</Link>
+                <Link to="/stylist" onClick={() => x.closeNav()}>Texture Masters Stylist</Link>
+                <Link to="/gZalinaIG" 
+                className='gZalinaIG' style={{paddingBottom:0}}
+                onClick={() => x.closeNav()}>Visual Media<i className="fa fa-instagram  " aria-hidden="true"></i></Link>
                 <Link to="/services" onClick={() => x.closeNav()}><em>Services</em></Link>
+                
                 <Link to="/education" onClick={() => x.closeNav()}>Education</Link>
+                <Link to="/events" onClick={() => x.closeNav()}>Events</Link>
+                
+                <Link to="/aboutus" onClick={() => x.closeNav()} >About Us</Link>
+                
+                
                 <Link to="/location" onClick={() => x.closeNav()}>Location</Link>
                 
-            </div>
+      </div>
         )
     }
 }

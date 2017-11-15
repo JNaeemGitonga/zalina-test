@@ -20,10 +20,7 @@ export class App extends React.Component {
     }
     
     render() {
-        let _scrollToTop = () => {
-            console.log('working')
-            document.getElementById('body').scrollTop
-        }
+       
         return (
             <Router >
                 <div className='App'>

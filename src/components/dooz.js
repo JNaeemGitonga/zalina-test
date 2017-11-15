@@ -39,7 +39,6 @@ export default class Dooz extends React.Component {
             display: `${this.state.display}`, /* Hidden by default */
             position: 'fixed', /* Stay in place */
             zIndex: '1', /* Sit on top */
-            paddingTop: '100px', /* Location of the box */
             left: '0',
             top: '0',
             width: '100vw', /* Full width */
@@ -48,6 +47,7 @@ export default class Dooz extends React.Component {
             // backgroundColor: 'rgb(0,0,0)', /* Fallback color */
             backgroundColor: 'rgba(0,0,0,1)', /* Black w/ opacity */
             textAlign:'center',
+            paddingTop:'45px'
             
         }
 
@@ -62,7 +62,11 @@ export default class Dooz extends React.Component {
         const closeStyle = {
             color: '#f1f1f1',
             fontWeight: 'bold',
-            textDecoration:'underline'
+            textDecoration:'underline',
+            position:'relative',
+            float:'right',
+            top:'-62px', 
+            right:'30px',
         }
 
         return (
@@ -101,13 +105,15 @@ export default class Dooz extends React.Component {
                           Aveda   Wellness   with   yummy 
                           shampoo   cleansing  and   conditioning   treatments. </h5>
                     <ul>
-                        <li>	Our   Extension   Styles   do   require  
-                            In-Salon   or   Email   Consultations. Extension  
-                            hair   is   provided   for   each   style. A   
-                            hair   fee   will   be added   to   your   total   
-                            service   based   on   your   particular   style   of choice.
+                        <li>
+                            Our Extension Styles require Salon or Virtual Consultations.
+                            Extension are provided for all braid styles.
+                            A hair fee will be added to your total service 
+                            based on your particular style of choice.
                         </li>
-                        <li>Example:   Mid   back   Two   Strand   Twist   Style   $225   
+                        
+                        <li>
+                            Example:   Mid   back   Two   Strand   Twist   Style   $225   
                             (Hair   Fee   $25)= Total   $250
                         </li>
                         <li>
@@ -131,9 +137,9 @@ export default class Dooz extends React.Component {
 
                 <div className="modal" style={modalStyle}>
                     <div className='modal-content'>
-                        <h1 className="modal-content" style={modalContent}>{styles[y.count - 1].style}</h1>
+                        <h1 className='close' style={closeStyle} onClick={() => this.setState({display:'none'})} > x </h1>
+                        <h1 className="modal-content style-heading" style={modalContent}>{styles[y.count - 1].style}</h1>
                         <img className='modal-img' alt={styles[y.count - 1].style}  src={styles[y.count -1].pic} /> 
-                        <h4 className='close' style={closeStyle} onClick={() => this.setState({display:'none'})} > x </h4>
                         <h3 className='style-info'> {styles[y.count-1].modalContent} </h3>
                         <h3 className='style-info'>  {styles[y.count-1].extra}</h3>
                     </div>

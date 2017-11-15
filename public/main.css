@@ -22,7 +22,8 @@ footer {
     text-align: center;
 }
 #footer {
-    background: #FF67AA;
+    background: rgb(24, 202, 215);
+     /* #FF67AA; */
 }
 #root {
 	height:auto;
@@ -52,7 +53,7 @@ footer {
     text-align: center;
     font-family: "Open Sans", sans-serif;
     padding:20px;
-    background:#E84962;
+    background:#16448e;
     height:70px;
 }
 
@@ -120,7 +121,7 @@ p.icon-label2 {
     width: 60px;
     height: 60px;
     border-radius: 100%;
-    background: black;
+    background: rgba(0, 0, 0, 0.4);
     position: fixed;
     right: 10px;
     bottom: 100px;
@@ -174,22 +175,11 @@ p.icon-label2 {
     left: -17px;
 }
 
-
 #changes img.mySlides {
     animation-name: fadeInAndOut;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-duration: 16s;
 }
-
-.back-to-top__toggle:hover {
-   
-    background: white;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-    transition: 0.4s box-shadow;
-    z-index: 99;
-}
-
-
 
 /*END BACK TO TOP BUTTON*/

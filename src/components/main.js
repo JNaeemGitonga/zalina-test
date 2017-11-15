@@ -12,9 +12,12 @@ export class Main extends React.Component {
 
         return(
             <div id='picTransitions' className='picTransitions'>
+                    
+                    
+
                     <div className='welcome-message'>
                         <h2>Welcome!</h2>
-                        <span>I'm glad you found me! Whether you were referred or 
+                        <span>I'm glad you found us! Whether you were referred or 
                         found me via a search, you found me for a reason. 
 
                         If you are looking to build a deeper relationship

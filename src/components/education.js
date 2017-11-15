@@ -1,5 +1,5 @@
 import React from 'react';
-import education1 from './pix/education1.png';
+import education1 from './pix/education1.jpg';
 import education2 from './pix/education2.png';
 import education3 from './pix/education3.png';
 import education4 from './pix/education4.png';
