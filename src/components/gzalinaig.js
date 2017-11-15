@@ -85,10 +85,7 @@ export class GZalinaIG extends React.Component {
                                     bigPic:`${pickedImage.images.standard_resolution.url}`,
                                     link:`${pickedImage.link}`
                                 })
-
                                 document.getElementById('body').style.overflow = 'hidden';
-
-                                    
                             }}  >
                                 <div className='ig-overlay-content'>
                                     <div className='ig-text'> 
