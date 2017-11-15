@@ -24,6 +24,7 @@ footer {
 #footer {
     background: rgb(24, 202, 215);
      /* #FF67AA; */
+     box-shadow: 0 0 20px 0 #888;
 }
 #root {
 	height:auto;
