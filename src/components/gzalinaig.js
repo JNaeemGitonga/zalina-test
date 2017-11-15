@@ -85,6 +85,9 @@ export class GZalinaIG extends React.Component {
                                     bigPic:`${pickedImage.images.standard_resolution.url}`,
                                     link:`${pickedImage.link}`
                                 })
+
+                                document.getElementById('body').style.overflow = 'hidden';
+
                                     
                             }}  >
                                 <div className='ig-overlay-content'>
@@ -98,23 +101,25 @@ export class GZalinaIG extends React.Component {
             )
         })
         }
-        console.log(igObject)
+       
+
         return (
             <div id='ig-feed' className='center-div'>
                 <div className=' ig-parent'>
-                {igObject === undefined ? 'IG feed loading ...' : igObject}
+                    {igObject === undefined ? 'IG feed loading ...' : igObject}
                 </div>
                 <div className="ig-modal" style={modalStyle}>
                 
-                    <div className='modal-content2'>
+                    <div id='modalContent2' className='modal-content2'>
                         
                         <div className='modal-pic modal-inside-1'>
                             <img className='ig-modal-img' alt='big pic'  src={y.bigPic} /> 
-                            
                         </div>
                         <div className='modal-inside-2' >
-                        <h4 className='close' style={closeStyle} onClick={() => this.setState({display:'none'})} > x </h4>
-
+                        <h4 className='close' style={closeStyle} onClick={() => {
+                            this.setState({display:'none'})
+                            document.getElementById('body').style.overflow = '';
+                            }} > x </h4>
                             <div className='name-box'> 
                                 <img className='ig-profile-pic' src={y.profilePic} alt='profile-pic' />
                                 <strong><p className="name" >{y.name }</p> </strong>
