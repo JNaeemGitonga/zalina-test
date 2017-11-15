@@ -810,3 +810,16 @@ h4.close {
 
 /*END IG MODAL*/
 
+/* BEGIN EVENTS STYLES */
+
+#events-box {
+    height:100%;
+
+}
+
+.event-message {
+    text-align:center;
+}
+
+
+/* END EVENTS STYLES */

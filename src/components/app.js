@@ -2,10 +2,12 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {getIGPost} from '../actions';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {history} from '../store';
 import AboutUs from './aboutus';
 import Box from './box';
 import Dooz from './dooz';
 import Education from './education';
+import Events from './events';
 import Header from './header';
 import Location from './location';
 import Main from './main';
@@ -23,7 +25,7 @@ export class App extends React.Component {
        
         return (
             <Router >
-                <div className='App'>
+                <div className='App' history={history}>
                     <Header />
                     <Box />
                     <Menu />
@@ -36,6 +38,7 @@ export class App extends React.Component {
                     <Route exact path='/stylist' component={Stylist} />
                     <Route exact path='/transitions&styling' component={Transitions} />
                     <Route exact path='/education' component={Education} />
+                    <Route exact path='/events' component={Events} />
                       
                 </div>
             </Router>
