@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import education1 from './pix/education1.jpg';
 import education2 from './pix/education2.png';
 import education3 from './pix/education3.png';
@@ -38,29 +37,35 @@ export default class Education extends React.Component {
                             processes that just work! 
                         </p>
                     </div>
-                    <div className=' children'> 
+                    <div className='edu-pix-box children'> 
                         <img className='ed-img' src={education2} alt='education 2' />
-                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK' target='_blank'>Apply Now</a>
+                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK'
+                         target='_blank' rel="noopener noreferrer">Apply Now</a>
                     </div>
-                    <div className=' children'> 
+                    <div className='edu-pix-box children'> 
                         <img className='ed-img' src={education3} alt='education 3' />
-                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK' target='_blank'>Apply Now</a>
+                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK'
+                         target='_blank' rel="noopener noreferrer">Apply Now</a>
                     </div>
-                    <div className=' children'> 
+                    <div className='edu-pix-box children'> 
                         <img className='ed-img' src={education4} alt='education 4' />
-                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK' target='_blank'>Apply Now</a>
+                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK'
+                         target='_blank' rel="noopener noreferrer">Apply Now</a>
                     </div>
-                    <div className=' children'> 
+                    <div className='edu-pix-box children'> 
                         <img className='ed-img' src={education5} alt='education 5' />
-                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK' target='_blank'>Apply Now</a>
+                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK' 
+                        target='_blank' rel="noopener noreferrer">Apply Now</a>
                     </div>
-                    <div className=' children'> 
+                    <div className='edu-pix-box children'> 
                         <img className='ed-img' src={education6} alt='education 6' />
-                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK' target='_blank'>Apply Now</a>
+                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK'
+                         target='_blank' rel="noopener noreferrer">Apply Now</a>
                     </div>
-                    <div className=' children'> 
+                    <div className='edu-pix-box children'> 
                         <img className='ed-img' src={education7} alt='education 7' />
-                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK' target='_blank'>Apply Now</a>
+                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK'
+                         target='_blank' rel="noopener noreferrer">Apply Now</a>
                     </div>
                 </div>    
             </div>
