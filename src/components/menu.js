@@ -8,6 +8,7 @@ export default class Menu extends React.Component {
     closeNav() {
         document.getElementById("mySidenav").style.width = "0";
         document.getElementById("main").style.marginLeft= "0";
+        document.getElementById('hamburger-menu').style.display = 'initial';
     }
    
     render() { 
@@ -16,6 +17,8 @@ export default class Menu extends React.Component {
             if(document.getElementById('mySidenav').style.width ==='250px') {
                 document.getElementById("mySidenav").style.width = "0";
                 document.getElementById("main").style.marginLeft= "0";
+                document.getElementById('hamburger-menu').style.display = 'initial';
+
             }
         })
 

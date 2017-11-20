@@ -12,8 +12,6 @@ export class Main extends React.Component {
 
         return(
             <div id='picTransitions' className='picTransitions'>
-                    
-                    
 
                     <div className='welcome-message'>
                         <h2>Welcome!</h2>

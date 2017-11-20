@@ -10,12 +10,13 @@ export default class Header extends React.Component {
         const openNav = () => {
             document.getElementById("mySidenav").style.width = "250px";
             document.getElementById("main").style.marginLeft = "250px";
+            document.getElementById('hamburger-menu').style.display = 'none';
         }
         
         return (
             <div id='header'>
                 
-                <p onClick={() => openNav()} className='hamburger link'>&#9776;</p>
+                <p onClick={() => openNav()} id='hamburger-menu' className='hamburger link'>&#9776;</p>
                 <Link className='head-link' to='/'><img id='logo' src={logo} alt='GZ Logo'/></Link>
             </div>
         )
