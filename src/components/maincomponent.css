@@ -229,12 +229,12 @@ img.mySlides{
     display:block;
     margin-top:0;
     margin-bottom:0;
-    right: 0;
+    left: 0;
     padding-top: 0;
     top: -10px;
     color: #16448e;
     margin-top: 15px;
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 #header {
