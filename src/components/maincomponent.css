@@ -223,18 +223,21 @@ img.mySlides{
     margin-bottom:45px;
 }
 
-.hamburger {
+#hamburger-menu {
     position:absolute;
-    font-size:30px;
-    display:block;
     margin-top:0;
     margin-bottom:0;
-    left: 0;
+    left: 26px;
+    top: 20px;
+    border: 1.5px solid #16448e ;
+    border-radius: 3px;
+}
+
+
+.hamburger {
     padding-top: 0;
-    top: -10px;
+    margin: 5px;
     color: #16448e;
-    margin-top: 15px;
-    margin-left: 15px;
 }
 
 #header {
@@ -259,7 +262,6 @@ img.mySlides{
 .heading {
     position:relative;
     bottom:75px;
-    /* padding:30px; */
     margin:0;
     font-size:5vw;
     margin-top:20px;
@@ -284,7 +286,6 @@ a.head-link {
 
 #box-under-header {
     background:     rgb(24, 202, 215); 
-    /* rgb(255, 103, 170); */
     height:auto;
     width:100%;
     padding:10px;
@@ -378,7 +379,6 @@ ul {
 
 .slides:hover .overlay{
     cursor:pointer;
-    /* height:100% */
     opacity:1;
 
 }
@@ -426,17 +426,7 @@ ul {
     .heading {
         padding:40px;
     }
-
-    /* div#box-under-header {
-        display:none;
-        transition: 0.5s;
-    } */
-    
-    #map {
-        /* margin-top:400px; */
-        /* margin-bottom:300px; */
-    }
-
+  
     iframe {
         width:70%;
         height:40vh;
@@ -573,10 +563,8 @@ animation-duration:2s;
 .modal-inside-2{
     margin:auto;
     width:200px;
-    /* margin-top: 10px; */
-    
-   
 }
+
 .caption-box {
     text-align:left;
     height:200px;
@@ -610,10 +598,6 @@ h4.close {
 .close:hover{
     cursor:pointer
 }
-
-/* .anchor {
-    text-decoration:none
-} */
 
 .style-info {
     color: #f1f1f1;
@@ -689,7 +673,6 @@ h4.close {
 .ig-content {
     display:inline-block;
     position:relative;
-    /* max-width:200px; */
     margin:2px;
     width:250px;
     height:250px;
@@ -744,7 +727,6 @@ h4.close {
 
 .ig-content:hover .ig-overlay{
     cursor:pointer;
-    /* height:100% */
     opacity:1;
 
 }
@@ -765,11 +747,6 @@ h4.close {
 .ig-pic-box {
     margin:10px;
 }
-/* @media screen and (min-width: 500px) {
-    .ig-text {
-        font-size:20px;
-    }
-} */
 
 /*END IGFEED STYLES*/
 
