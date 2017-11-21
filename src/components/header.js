@@ -16,7 +16,7 @@ export default class Header extends React.Component {
         return (
             <div id='header'>
                 
-                <div id='hamburger-menu' class='link' onClick={() => openNav()}><p   className='hamburger link'>&#9776;</p></div>
+                <div id='hamburger-menu' className='link' onClick={() => openNav()}><p   className='hamburger link'>&#9776;</p></div>
                 <Link className='head-link' to='/'><img id='logo' src={logo} alt='GZ Logo'/></Link>
             </div>
         )

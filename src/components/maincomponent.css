@@ -223,6 +223,10 @@ img.mySlides{
     margin-bottom:45px;
 }
 
+#hamburger-menu:hover  {
+    background-color:#16448e;
+}
+
 #hamburger-menu {
     position:absolute;
     margin-top:0;

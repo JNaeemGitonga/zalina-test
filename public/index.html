@@ -66,6 +66,12 @@
         </a>
     </body>
     <script>
+        document.getElementById('hamburger-menu').addEventListener('mouseover', function () {
+            document.getElementsByClassName('hamburger')[0].style.color = 'white'
+        })
+        document.getElementById('hamburger-menu').addEventListener('mouseleave', function () {
+            document.getElementsByClassName('hamburger')[0].style.color = '#16448e'
+        })
         window.addEventListener('scroll', function(e) {
 
             if (window.scrollY > 200) {
