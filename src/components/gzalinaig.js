@@ -74,7 +74,6 @@ export class GZalinaIG extends React.Component {
                                 
                             <div className="ig-overlay" onClick={() => {
                                 let pickedImage = this.props.feed[i]
-                                console.log(pickedImage)
                                 this.setState({
                                     display:'block',
                                     profilePic:`${pickedImage.user.profile_picture}`,
