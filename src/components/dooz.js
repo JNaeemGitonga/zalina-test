@@ -77,7 +77,7 @@ export default class Dooz extends React.Component {
                        
                         alt={styles[y.count - 1].style} 
                         src={styles[y.count -1].pic} style={{width:"80%",
-                         height:'auto',border:'5px solid black'}}/>
+                         height:'auto',border:'8px solid black'}}/>
                             
                         <div className="overlay" onClick={() => this.setState({display:'block'})}  >
                             <div className='overlay-content'>
