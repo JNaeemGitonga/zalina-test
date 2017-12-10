@@ -25,7 +25,7 @@ export class App extends React.Component {
        
         return (
             <Router >
-                <div className='App' history={history}>
+                <div className='App' history={JSON.stringify(history)}>
                     <Header />
                     <Box />
                     <Menu />

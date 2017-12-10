@@ -14,9 +14,6 @@ export default class Dooz extends React.Component {
         }
     }
 
-    componentDidMount() {
-    }
-
     render() {
         let y = this.state;
         let nextImg = () => {
