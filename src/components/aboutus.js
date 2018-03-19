@@ -7,7 +7,7 @@ import style4 from './pix/style4.jpg';
 
 export default class AboutUs extends React.Component {
     render() {
-        return (
+        return ( 
             <div id='about-us'>
                 <div className='about-us'>
                     <div id='changes'>

@@ -141,7 +141,7 @@ img.mySlides{
     animation-delay: 4s;
 }
 
-  #changes img:nth-of-type(4) {
+#changes img:nth-of-type(4) {
     animation-delay: 0s;
 }
 
@@ -589,6 +589,7 @@ p.name {
 h4.close {
     margin-top:0;
 }
+
 .ig-profile-pic{
     position:relative;
     display:block;

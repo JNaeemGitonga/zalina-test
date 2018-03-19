@@ -164,13 +164,13 @@ p.icon-label2 {
     height: 1px;
     background: inherit;
     top: -2px;
-
 }
 
 .back-to-top__arrow:after {
     transform: rotate(45deg);
     left: -3px;
 }
+
 .back-to-top__arrow:before {
     transform: rotate(-45deg);
     left: -17px;

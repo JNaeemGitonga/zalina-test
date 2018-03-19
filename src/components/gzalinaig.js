@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {getIGPost} from '../actions';
+import IGpic from './pix/igPic.jpg';
 
 import './gzalinaig.css';
 
@@ -16,12 +16,10 @@ export class GZalinaIG extends React.Component {
             likes:``,
             link:''
 
+
         }
     }
-    componentDidMount(){
-        this.props.dispatch(getIGPost())
     
-    }
    
     render() {
         const modalStyle = {
@@ -34,7 +32,6 @@ export class GZalinaIG extends React.Component {
             width: '100vw', /* Full width */
             height: '100vh', /* Full height */
              overflow: 'auto', /* Enable scroll if needed */
-            // backgroundColor: 'rgb(0,0,0)', /* Fallback color */
             backgroundColor: 'rgba(0,0,0,.3)', /* Black w/ opacity */
             textAlign:'center',
             
@@ -56,8 +53,14 @@ export class GZalinaIG extends React.Component {
             fontSize: '40px',
             
         }
-        let igObject;
+        
         let y = this.state
+        let igObject;
+
+        
+
+       
+        
         if(this.props.feed) {
             igObject = this.props.feed.map((obj, i) => {
                 let text;
@@ -67,42 +70,49 @@ export class GZalinaIG extends React.Component {
                     text = `${obj.caption.text.split(' ').slice(0,15).join(' ')}...`
                 }
                 else{text = obj.caption.text}
-            return  (
-                    <div key={i} className="ig-content   ">
-                           <img className='ig-pic ' src={obj.images.standard_resolution.url} 
-                           alt={obj.caption.text.split(' ').slice(0,3).join(' ')}/> 
-                                
-                            <div className="ig-overlay" onClick={() => {
-                                let pickedImage = this.props.feed[i]
-                                this.setState({
-                                    display:'block',
-                                    profilePic:`${pickedImage.user.profile_picture}`,
-                                    altProPic:`${pickedImage.caption.text.split(' ').slice(0,3).join(' ') }`,
-                                    name:`${pickedImage.user.username}`,
-                                    caption:`${pickedImage.caption.text}`,
-                                    likes:`${pickedImage.likes.count}`,
-                                    bigPic:`${pickedImage.images.standard_resolution.url}`,
-                                    link:`${pickedImage.link}`
-                                })
-                                document.getElementById('body').style.overflow = 'hidden';
-                            }}  >
-                                <div className='ig-overlay-content'>
-                                    <div className='ig-text'> 
-                                        <span> <em>{text}</em></span>
+
+                return  (
+                        <div key={i} className="ig-content   ">
+                            <img className='ig-pic ' src={obj.images.standard_resolution.url} 
+                            alt={obj.caption.text.split(' ').slice(0,3).join(' ')}/> 
+                                    
+                                <div className="ig-overlay" onClick={() => {
+                                    let pickedImage = this.props.feed[i]
+                                    this.setState({
+                                        display:'block',
+                                        profilePic:`${pickedImage.user.profile_picture}`,
+                                        altProPic:`${pickedImage.caption.text.split(' ').slice(0,3).join(' ') }`,
+                                        name:`${pickedImage.user.username}`,
+                                        caption:`${pickedImage.caption.text}`,
+                                        likes:`${pickedImage.likes.count}`,
+                                        bigPic:`${pickedImage.images.standard_resolution.url}`,
+                                        link:`${pickedImage.link}`
+                                    })
+                                    document.getElementById('body').style.overflow = 'hidden';
+                                }}  >
+                                    <div className='ig-overlay-content'>
+                                        <div className='ig-text'> 
+                                            <span> <em>{text}</em></span>
+                                        </div>
+                                            
                                     </div>
-                                        
                                 </div>
-                            </div>
-                    </div>
-            )
-        })
+                        </div>
+                )
+            })
         }
-       
+        else if (this.props.error) {
+            igObject = 
+                <div>
+                    <h1>Opps! Looks like we can't access your Instagram!</h1>
+                </div>
+            
+        }
 
         return (
             <div id='ig-feed' className='center-div'>
                 <div className=' ig-parent'>
-                    {igObject === undefined ? 'IG feed loading ...' : igObject}
+                    {igObject}
                 </div>
                 <div className="ig-modal" style={modalStyle}>
                 
@@ -136,7 +146,9 @@ export class GZalinaIG extends React.Component {
 
 const mapStateToProps = (state) => {
     return {
-        feed:state.igPost
+        feed:state.igPost,
+        message:state.loadingError,
+        error:state.error
 
     }
 }
