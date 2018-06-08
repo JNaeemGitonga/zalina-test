@@ -67,14 +67,14 @@
                 </footer>
             </div>
             <div class='developer'>
-                <a class='icon-link' href='https://www.jahanaeemgitonga.com' target='_blank'><p class='dev-credit'>Designed by GIT Solutions, Inc.</p></a>
-                <p class='owner'>Gabrielle Zalina <i class="fa fa-copyright" aria-hidden="true"></i> 2017</p>
+                    <a class='icon-link' href='http://www.gtng.tech' target='_blank'><p class='dev-credit'>Designed by GTNG™</p></a>
+                    <p class='owner'>GTNG™ <i class="fa fa-copyright" aria-hidden="true"></i> <span id='date'></span></p>
             </div> 
         </div>
         <a href="#body" id='bktt' class="back-to-top__toggle">
             <span id='bktt-arrow' class="back-to-top__arrow"></span>
         </a>
-    </body>
+    <script type="text/javascript" src="https://momentjs.com/downloads/moment.js"></script>
     <script>
         document.getElementById('hamburger-menu').addEventListener('mouseover', function () {
             document.getElementsByClassName('hamburger')[0].style.color = 'white'
@@ -95,6 +95,13 @@
                 document.getElementById('bktt').style.display = "none"
             }
         })
-    </script>
+
+        
+        
+     
+            document.getElementById('date').innerHTML = moment().format('YYYY');
+        </script>
+    </body>
+    
 
 </html>
