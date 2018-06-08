@@ -74,32 +74,29 @@
         <a href="#body" id='bktt' class="back-to-top__toggle">
             <span id='bktt-arrow' class="back-to-top__arrow"></span>
         </a>
-    <script type="text/javascript" src="https://momentjs.com/downloads/moment.js"></script>
-    <script>
-        document.getElementById('hamburger-menu').addEventListener('mouseover', function () {
-            document.getElementsByClassName('hamburger')[0].style.color = 'white'
-        })
-        document.getElementById('hamburger-menu').addEventListener('mouseleave', function () {
-            document.getElementsByClassName('hamburger')[0].style.color = '#16448e'
-        })
-        window.addEventListener('scroll', function(e) {
-
-            if (window.scrollY > 200) {
-                document.getElementById('bktt').style.display = "block"
-            }
-        })
-
-        window.addEventListener('scroll', function(e) {
-
-            if (window.scrollY === 0) {
-                document.getElementById('bktt').style.display = "none"
-            }
-        })
-
-        
-        
-     
+        <script type="text/javascript" src="https://momentjs.com/downloads/moment.js"></script>
+        <script>
             document.getElementById('date').innerHTML = moment().format('YYYY');
+            document.getElementById('hamburger-menu').addEventListener('mouseover', function () {
+                document.getElementsByClassName('hamburger')[0].style.color = 'white'
+            })
+            document.getElementById('hamburger-menu').addEventListener('mouseleave', function () {
+                document.getElementsByClassName('hamburger')[0].style.color = '#16448e'
+            })
+            window.addEventListener('scroll', function(e) {
+
+                if (window.scrollY > 200) {
+                    document.getElementById('bktt').style.display = "block"
+                }
+            })
+
+            window.addEventListener('scroll', function(e) {
+
+                if (window.scrollY === 0) {
+                    document.getElementById('bktt').style.display = "none"
+                }
+            })
+        
         </script>
     </body>
     
