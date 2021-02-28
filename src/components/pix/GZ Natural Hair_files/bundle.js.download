@@ -47206,7 +47206,7 @@ var AboutUs = function (_React$Component) {
                             },
                             __self: this
                         },
-                        'Please look around.... If you are in the Northeast Florida/Southeast Georgia area, you are welcome to setup a consultation/appointment to come in for an In-Depth Hair Analysis to build a Holistic Hair at home Solutions guide, made just for you! If you are anywhere else on the globe, please visit our Distant Consultations page and setup a consult. You will learn a great deal and make your life easier, managing your hair.'
+                        'Please look around.... If you are in the Northeast Georgia/Southeast Georgia area, you are welcome to setup a consultation/appointment to come in for an In-Depth Hair Analysis to build a Holistic Hair at home Solutions guide, made just for you! If you are anywhere else on the globe, please visit our Distant Consultations page and setup a consult. You will learn a great deal and make your life easier, managing your hair.'
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', {
                         __source: {
@@ -47554,7 +47554,7 @@ var Box = function (_React$Component) {
                             },
                             __self: this
                         },
-                        'Jacksonville, FL'
+                        'Atlanta, FL'
                     ),
                     ' |'
                 )
@@ -48920,7 +48920,7 @@ var Location = function (_React$Component) {
                                 },
                                 __self: this
                             }),
-                            'Jacksonville Florida 32223'
+                            'Atlanta Georgia 32223'
                         )
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -50273,7 +50273,7 @@ var Stylist = function (_React$Component) {
                                     },
                                     __self: this
                                 },
-                                'In   2017    Zalina   founded   Texture Masters,\xA0 offering   students   and   peers full-spectrum, advanced\xA0 education of  textures, concentrating   on   braiding\xA0 and   texture styling   services.   From   the   tightest coils   to   perfectly\xA0 straight   tresses Gabrielle   is   a   hair   master,   highly fueled   by\xA0 continuing   to   deepen   her education   and   practice.\xA0\xA0'
+                                'In   2017    Zalina   founded   demo site,\xA0 offering   students   and   peers full-spectrum, advanced\xA0 education of  textures, concentrating   on   braiding\xA0 and   texture styling   services.   From   the   tightest coils   to   perfectly\xA0 straight   tresses Gabrielle   is   a   hair   master,   highly fueled   by\xA0 continuing   to   deepen   her education   and   practice.\xA0\xA0'
                             )
                         )
                     ),
@@ -50293,7 +50293,7 @@ var Stylist = function (_React$Component) {
                                 },
                                 __self: this
                             },
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'headshot', src: __WEBPACK_IMPORTED_MODULE_3__pix_meetGiving_jpg___default.a, alt: 'Giving Vega', __source: {
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'headshot', src: __WEBPACK_IMPORTED_MODULE_3__pix_meetGiving_jpg___default.a, alt: 'Demo', __source: {
                                     fileName: _jsxFileName,
                                     lineNumber: 45
                                 },
@@ -50317,7 +50317,7 @@ var Stylist = function (_React$Component) {
                                     },
                                     __self: this
                                 },
-                                'Giving Vega'
+                                'Demo'
                             ),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 'p',
@@ -50339,7 +50339,7 @@ var Stylist = function (_React$Component) {
                                     },
                                     __self: this
                                 },
-                                'In   2017   Gabrielle   Zalina   founded   Texture Masters,\xA0 offering   student   and   licensed Cosmetology   professionals,   advanced\xA0 education in   the   full   spectrum   of   textures, concentrating   on   braiding\xA0 and   texture styling   services.   From   the   tightest coils   to   perfectly\xA0 straight   tresses Gabrielle   is   a   hair   master,   highly fueled   by\xA0 continuing   to   deepen   her education   and   practice.\xA0\xA0'
+                                'In   2017   Gabrielle   Zalina   founded   demo site,\xA0 offering   student   and   licensed Cosmetology   professionals,   advanced\xA0 education in   the   full   spectrum   of   textures, concentrating   on   braiding\xA0 and   texture styling   services.   From   the   tightest coils   to   perfectly\xA0 straight   tresses Gabrielle   is   a   hair   master,   highly fueled   by\xA0 continuing   to   deepen   her education   and   practice.\xA0\xA0'
                             )
                         )
                     )

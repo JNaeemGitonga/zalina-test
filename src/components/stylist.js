@@ -11,11 +11,11 @@ export default class Stylist extends React.Component {
             <div id='stylist'> 
                 <div >
                     <div className='bio-box'>
-                    <div id='gabrielle' className='meet-pic'> <img className='headshot' src={meetGabrielle} alt='Gabrielle Zalina' /></div>
+                    <div id='gabrielle' className='meet-pic'> <img className='headshot' src={meetGabrielle} alt='demo site' /></div>
                     <div className='bio'>
-                       <h3>Gabrielle Zalina</h3> 
+                       <h3>demo site</h3> 
                         <p>
-                            Gabrielle’s   immense   passion   for   waves, 
+                            Demo's   immense   passion   for   waves, 
                             curls   and   coils   has   ushered   her  into   
                             a   committed   career   in   Cosmetology.   
                             Beginning   the   hair   journey   in  2006   
@@ -42,9 +42,9 @@ export default class Stylist extends React.Component {
                     </div>
                     
                     <div className='bio-box'>
-                        <div className='meet-pic'><img className='headshot' src={meetGiving} alt='Giving Vega' /></div>
+                        <div className='meet-pic'><img className='headshot' src={meetGiving} alt='Demo' /></div>
                         <div className='bio'>
-                        <h3>Giving Vega</h3>
+                        <h3>Demo</h3>
                             <p>
                                 Hola! Thank you for taking the time to check me out!
                                 I started my adventure in the beautifying world in 2009
@@ -55,8 +55,8 @@ export default class Stylist extends React.Component {
                                 what truly makes me happy. 
                             </p>
                             <p>
-                                My husband and I moved to the Jacksonville area in 2016 and I took a leap 
-                                of faith joining Gabrielle Zalina in 2017. I am now learning and honoring 
+                                My husband and I moved to the Atlanta area in 2016 and I took a leap 
+                                of faith joining demo site in 2017. I am now learning and honoring 
                                 the Aveda mission in educating you on how to beautify yourself while 
                                 maintaining the integrity of the world we live in. Among a variety of services, 
                                 I specialize in Curl Training and Conditioning, teaching you to enjoy your curls 

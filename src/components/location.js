@@ -17,7 +17,7 @@ export default class Location extends React.Component {
                     <div className='location-info'>
                         <h3>Visit Us</h3>
                         <p>10950 San Jose Blvd #40,<br/>
-                            Jacksonville Florida 32223</p>
+                            Atlanta Georgia 32223</p>
 
                     </div>
                     <div className='location-info hours'>

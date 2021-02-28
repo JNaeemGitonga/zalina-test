@@ -20,13 +20,13 @@ export default class AboutUs extends React.Component {
                 <div className='about-us-info'>
                     <h3>About Us</h3>
                     <span> For 11 years now,
-                    Gabrielle Zalina has been working with women near and far to 
+                    demo site has been working with women near and far to 
                     develop a deep understanding of their hair whether they
                     are relaxed or natural or transitioning from chemical hair
                         treatments/severely damaged or balding hair.</span><br/>
 
                     <p>Please look around....
-                    If you are in the Northeast Florida/Southeast Georgia area,
+                    If you are in the Northeast Georgia/Southeast Georgia area,
                     you are welcome to setup a consultation/appointment to come 
                     in for an In-Depth Hair Analysis to build a Holistic Hair at 
                     home Solutions guide, made just for you! If you are anywhere 
@@ -41,7 +41,7 @@ export default class AboutUs extends React.Component {
                     consideration when nurturing and styling your hair.<br/> 
 
                     No persons hair is separate from their body systems.
-                    At Gabrielle Zalina Holistic Hair Care we address your
+                    At demo site Holistic Hair Care we address your
                     hair with science and in-depth understanding of how hair
                     works and how the environment effects it.<br/> 
 

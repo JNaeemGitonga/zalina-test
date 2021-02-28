@@ -39,32 +39,32 @@ export default class Education extends React.Component {
                     </div>
                     <div className='edu-pix-box children'> 
                         <img className='ed-img' src={education2} alt='education 2' />
-                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK'
+                        <a 
                          target='_blank' rel="noopener noreferrer">Apply Now</a>
                     </div>
                     <div className='edu-pix-box children'> 
                         <img className='ed-img' src={education3} alt='education 3' />
-                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK'
+                        <a 
                          target='_blank' rel="noopener noreferrer">Apply Now</a>
                     </div>
                     <div className='edu-pix-box children'> 
                         <img className='ed-img' src={education4} alt='education 4' />
-                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK'
+                        <a 
                          target='_blank' rel="noopener noreferrer">Apply Now</a>
                     </div>
                     <div className='edu-pix-box children'> 
                         <img className='ed-img' src={education5} alt='education 5' />
-                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK' 
+                        <a  
                         target='_blank' rel="noopener noreferrer">Apply Now</a>
                     </div>
                     <div className='edu-pix-box children'> 
                         <img className='ed-img' src={education6} alt='education 6' />
-                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK'
+                        <a 
                          target='_blank' rel="noopener noreferrer">Apply Now</a>
                     </div>
                     <div className='edu-pix-box children'> 
                         <img className='ed-img' src={education7} alt='education 7' />
-                        <a href='https://gabriellezalina.typeform.com/to/SKQXoK'
+                        <a 
                          target='_blank' rel="noopener noreferrer">Apply Now</a>
                     </div>
                 </div>    

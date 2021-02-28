@@ -50,7 +50,7 @@ export default class Transitions extends React.Component {
                     <h3 className='transitions-question'>Will braids or cornrows cause breakage or damage to my hair?</h3>
             
                     <p>Braids have long had a reputation of breaking hair.
-                        At Gabrielle Zalina, we have mastered the Art of 
+                        At demo site, we have mastered the Art of 
                         Braiding to grow and maintain healthy hair. This is
                         the original purpose for braids. Our ancestors,
                         cornrowed and braided their hair to protect it from
